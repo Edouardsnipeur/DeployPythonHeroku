@@ -2,7 +2,7 @@
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, Filters
 
-TOKEN = '5418296339:AAF0rzZ2INQvdXRR4hYeInt4X2YbEj4xaPo'
+TOKEN = '5418296339:AAF0rzZ2INQ'
 
 # This function replies with 'Hello <user.first_name>'
 def hello(update: Update, context: CallbackContext) -> None:
